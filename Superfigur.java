@@ -38,7 +38,7 @@ public class Superfigur extends Application {
 
         Text info = new Text("Information");
         vbox.getChildren().addAll(info);
-
+        System.Out.Print("Hej");
         bp.setCenter(listView);
         bp.setTop(toolBar);
         bp.setLeft(vbox);
